@@ -1,0 +1,30 @@
+{"secret": "my application",
+  "jwtSecret": "yo-its-a-secret",
+  "tokenExpireTime": "6h",
+   "adminId": 1,
+  "gouvernanteId": 2,
+  "responsableId": 3,
+  "development": {
+    "username": "mariemphp",
+    "password": "mariem",
+    "database": "mariemApp",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "operatorsAliases": false
+  }
+}
